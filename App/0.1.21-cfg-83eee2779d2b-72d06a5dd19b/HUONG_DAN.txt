@@ -1,0 +1,35 @@
+VANTRONG08 0.1.21 — GIỮ GIAO DIỆN GỐC 0.1.14
+
+1. Đóng tool cũ, mở Setup và cài. Mở lại từ Desktop hoặc Start Menu.
+2. App có cửa sổ Windows riêng; giao diện gốc được giữ bằng WebView2 nhúng.
+3. Gỡ app trong Cài đặt Windows → Ứng dụng. KEY, profile và dự án được giữ.
+4. Nếu bộ cài báo lỗi, mở Hiện chi tiết; log ở LocalAppData\VanTrong08AI\setup.log.
+   Chỉ mã 5 mới có nghĩa là tìm thấy tiến trình app. Lỗi kiểm tra có mã riêng.
+
+MUSE
+Tài khoản → chọn Muse → Kết nối. Đăng nhập trong profile riêng do tool mở.
+App kiểm tra dấu hiệu đăng nhập, trạng thái tải và ô nhập thực tế trước khi Sẵn sàng.
+Phiên hết hạn/thiếu credit/lỗi mạng được báo riêng. Không xuất cookie ra ngoài.
+
+GEMINI / GOOGLE FLOW
+Lần đầu: chọn tài khoản → Login/Kết nối, tự đăng nhập trong Chrome/Edge riêng.
+Khi đăng nhập xong, đóng cửa sổ đó. App mở lại cùng profile để xác minh kết nối.
+Khi cần đăng nhập lại, bấm Login. Không đăng nhập Google trong cửa sổ app/WebView.
+Không tắt bảo mật, giả mạo trình duyệt hay vượt CAPTCHA.
+Nếu Google vẫn báo trình duyệt không an toàn, app báo lỗi và không coi đã kết nối.
+Flow chỉ tạo video; phân tích/kịch bản vẫn dùng Muse hoặc Gemini theo lựa chọn cũ.
+
+PHẠM VI
+Giữ nguyên toàn bộ HTML/CSS/JS, ảnh/logo, module Studio, Video AFF, SRT,
+Storyboard, dựng phim, Gemini API và cấu hình KEY của đúng EXE 0.1.14 bạn gửi.
+Chỉ đổi mã kết nối, cửa sổ/launcher Windows và bộ cài. Số phiên bản là 0.1.21.
+
+DÀNH CHO CHỦ TOOL
+File gốc bạn chọn có license_required=false. Bản này giữ nguyên cấu hình đó.
+Muốn phát cho khách có khóa KEY, cần dùng Admin ghim cấu hình khách required=true.
+Áp dụng bản vá đóng gói Admin đi kèm trước khi để Admin tạo EXE khách.
+Không đổi khóa ký, DB hoặc Env. Không gửi ZIP mã nguồn cho khách.
+
+TRẠNG THÁI KIỂM THỬ
+Xem báo cáo đi kèm. Kiểm thử cục bộ không thay cho chạy Windows 11 và tài khoản thật.
+Chưa xác minh đăng nhập và render thực tế trên Muse/Gemini/Flow trong phiên này.
